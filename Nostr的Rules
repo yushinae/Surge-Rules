@@ -1,0 +1,49 @@
+#!name = Nostr-rules
+# Surge RULE-SET - Nostr + Alby Hub 客户端专用规则
+# 作者：薇薇 协助配置
+# 最后更新：2026-03-03
+# 描述：覆盖 Nostr Relays、Alby Hub 桌面客户端（getalby.com、albyhub.com、NWC 等）全部域名，走代理
+# 使用方法：在 Surge 配置文件的 [Rule] 段落添加：
+# RULE-SET,https://raw.githubusercontent.com/您的用户名/仓库名/main/nostr-alby.list,PROXY
+# （请替换为您的实际 raw 链接，并放在 GEOIP,CN,DIRECT 等国内规则之后）
+
+# ==================== Alby Hub 客户端核心域名 ====================
+DOMAIN-SUFFIX,albyhub.com
+DOMAIN-SUFFIX,getalby.com
+DOMAIN-SUFFIX,nwc.dev
+
+# ==================== Nostr 主流 Relays ====================
+DOMAIN-SUFFIX,nostr.wine
+DOMAIN-SUFFIX,relay.damus.io
+DOMAIN-SUFFIX,nos.lol
+DOMAIN-SUFFIX,relay.nostr.band
+DOMAIN-SUFFIX,relay.snort.social
+DOMAIN-SUFFIX,eden.nostr.land
+DOMAIN-SUFFIX,nostr.land
+DOMAIN-SUFFIX,relay.primal.net
+DOMAIN-SUFFIX,nostr-pub.wellorder.net
+DOMAIN-SUFFIX,relay.nostr.bg
+DOMAIN-SUFFIX,nostr.mom
+DOMAIN-SUFFIX,nostr.massmux.com
+# ==================== Nostr 常用客户端网站 ====================
+DOMAIN-SUFFIX,yakihonne.com
+DOMAIN-SUFFIX,yakihonne.s3.ap-east-1.amazonaws.com
+
+
+# ==================== Nostr 常用客户端网站 ====================
+DOMAIN-SUFFIX,primal.net
+DOMAIN-SUFFIX,nostter.app
+DOMAIN-SUFFIX,iris.to
+DOMAIN-SUFFIX,snort.social
+DOMAIN-SUFFIX,nostr.band
+DOMAIN-SUFFIX,damus.io
+DOMAIN-SUFFIX,nostr.com
+DOMAIN-SUFFIX,nostrapps.com
+DOMAIN-SUFFIX,nostatus.vercel.app
+DOMAIN-SUFFIX,nostter.app
+
+# ==================== 通用关键词匹配 ====================
+DOMAIN-KEYWORD,nostr
+DOMAIN-KEYWORD,nostter
+DOMAIN-KEYWORD,nostatus
+# ==================== 结束 ====================
