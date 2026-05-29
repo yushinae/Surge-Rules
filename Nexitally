@@ -1,0 +1,35 @@
+#!name = Nexitally
+
+[Rule]
+# ==================== iCloud 邮件发送 ====================
+DOMAIN,smtp.mail.me.com,DIRECT
+DOMAIN-SUFFIX,mail.me.com,DIRECT   # 覆盖可能的变体
+
+DOMAIN-SUFFIX,18comic.vip,🇭🇰 Hong Kong 04
+DOMAIN-SUFFIX,isafepal.com,🇯🇵 Japan 04
+DOMAIN-SUFFIX,hyperliquid.xyz,🇯🇵 Japan 04
+DOMAIN-SUFFIX,rabby.io,🇯🇵 Japan 04
+DOMAIN-SUFFIX,grok.com,🇯🇵 Japan 04
+# x平台静态IP 停用
+DOMAIN-SUFFIX,twitter.com,🇯🇵 Japan 04
+DOMAIN-SUFFIX,X.COM,🇯🇵 Japan 04
+
+# ==================== Deribit 核心域名 ====================
+DOMAIN-KEYWORD,deribit,🇨🇳 Taiwan 04
+DOMAIN-KEYWORD,deribit,greeks.live,🇯🇵 Japan 04
+# ==================== Bybit 核心域名 ====================
+DOMAIN-KEYWORD,bybit,🇨🇳 Taiwan 04
+
+DOMAIN-KEYWORD,polymarket,🇭🇰 Hong Kong 04
+DOMAIN-KEYWORD,bilibili.com,DIRECT
+DOMAIN-KEYWORD,douyinstatic.com,DIRECT
+DOMAIN-KEYWORD,douyinpic.com,DIRECT
+# 抖音app走国内直连
+DOMAIN-KEYWORD,ttyuyin.com,DIRECT
+DOMAIN-KEYWORD,tt.com,DIRECT
+# TT语音走直连
+DOMAIN-KEYWORD,qq.com,DIRECT
+# 微信 （不走直连发不了图片）
+#FINAL,🇯🇵 Japan 04
+#这里不加FINAL，目的是为了后续的匹配
+# 最后别忘加 FINAL,DIRECT（或你的默认策略）
