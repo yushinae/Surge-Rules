@@ -19,6 +19,8 @@ DOMAIN-KEYWORD,deribit,🇨🇳 Taiwan 04
 DOMAIN-KEYWORD,deribit,greeks.live,🇯🇵 Japan 04
 # ==================== Bybit 核心域名 ====================
 DOMAIN-KEYWORD,bybit,🇨🇳 Taiwan 04
+# ==================== AI 核心域名 ====================
+DOMAIN-KEYWORD,anthropic.com,🇨🇳 Taiwan 04
 
 DOMAIN-KEYWORD,polymarket,🇭🇰 Hong Kong 04
 DOMAIN-KEYWORD,bilibili.com,DIRECT
