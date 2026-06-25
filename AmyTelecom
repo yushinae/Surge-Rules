@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,twitter.com,🇯🇵 日本 04
 DOMAIN-SUFFIX,X.COM,🇯🇵 日本 04
 # ==================== Deribit 核心域名 ====================
 DOMAIN-KEYWORD,deribit,🇨🇳 台湾 04
-DOMAIN-KEYWORD,deribit,greeks.live,🇯🇵 日本 04
+DOMAIN-KEYWORD,greeks.live,🇯🇵 日本 04
 # ==================== Bybit 核心域名 ====================
 DOMAIN-KEYWORD,bybit,🇨🇳 台湾 04
 # ==================== AI 核心域名 ====================
