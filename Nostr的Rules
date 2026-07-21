@@ -13,18 +13,15 @@ DOMAIN-SUFFIX,getalby.com
 DOMAIN-SUFFIX,nwc.dev
 
 # ==================== Nostr 主流 Relays ====================
-DOMAIN-SUFFIX,nostr.wine
-DOMAIN-SUFFIX,relay.damus.io
+DOMAIN-SUFFIX,damus.io
 DOMAIN-SUFFIX,nos.lol
-DOMAIN-SUFFIX,relay.nostr.band
-DOMAIN-SUFFIX,relay.snort.social
-DOMAIN-SUFFIX,eden.nostr.land
-DOMAIN-SUFFIX,nostr.land
-DOMAIN-SUFFIX,relay.primal.net
-DOMAIN-SUFFIX,nostr-pub.wellorder.net
-DOMAIN-SUFFIX,relay.nostr.bg
-DOMAIN-SUFFIX,nostr.mom
-DOMAIN-SUFFIX,nostr.massmux.com
+DOMAIN-SUFFIX,primal.net
+DOMAIN-SUFFIX,bitcoiner.social
+DOMAIN-SUFFIX,yabu.me
+DOMAIN-SUFFIX,nostr1.com
+DOMAIN-SUFFIX,0xchat.com
+DOMAIN-SUFFIX,ditto.pub
+DOMAIN-SUFFIX,nos.today
 # ==================== Nostr 常用客户端网站 ====================
 DOMAIN-SUFFIX,yakihonne.com
 DOMAIN-SUFFIX,yakihonne.s3.ap-east-1.amazonaws.com
